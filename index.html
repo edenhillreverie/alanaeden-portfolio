@@ -30,8 +30,54 @@
       line-height: 1.6;
     }
   </style>
+
+  <style>
+  body {
+    margin: 0;
+    padding: 2.5rem 2.5rem 4rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    line-height: 1.6;
+  }
+
+  .site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 3rem;
+  }
+
+  .site-title a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 500;
+  }
+
+  .site-nav a {
+    margin-left: 1.5rem;
+    text-decoration: none;
+    color: inherit;
+    font-weight: 400;
+  }
+
+  .site-nav a:hover,
+  .site-title a:hover {
+    text-decoration: underline;
+  }
+</style>
+  
 </head>
 <body>
+
+  <header class="site-header">
+  <div class="site-title">
+    <a href="index.html">Alana Eden</a>
+  </div>
+  <nav class="site-nav">
+    <a href="works.html">Works</a>
+    <a href="mailto:contact@edenhillreverie.com">Contact</a>
+  </nav>
+</header>
+  
   <div class="container">
     <h1>alana eden</h1>
     <p>
