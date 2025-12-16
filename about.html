@@ -42,6 +42,15 @@
   .site-title a:hover {
     text-decoration: underline;
   }
+
+    /* auto dark mode (follows device setting) */
+@media (prefers-color-scheme: dark) {
+  body { background: #0f0f10; color: #f2f2f2; }
+  a { color: inherit; }
+  .tagline, .work-title { color: rgba(242,242,242,0.78); }
+  .tagline::before, .tagline::after { background: rgba(242,242,242,0.45); }
+}
+    
 </style>
   
 </head>
