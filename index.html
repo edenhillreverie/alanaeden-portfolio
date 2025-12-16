@@ -63,17 +63,17 @@
   }
 
     .hero-logo {
-  margin: 0 0 0.75rem;
-  text-align: center;
+  margin: 2.25rem 0 1.25rem;
 }
 
 .hero-logo img {
-  height: 90px;
-  width: auto;
-  max-width: 100%;
+  width: 180px;
+  height: auto;
   display: block;
   margin: 0 auto;
+  opacity: 0.9;
 }
+    
  .hero-text {
   text-align: center;
   margin-top: 1rem;
@@ -116,7 +116,11 @@
   margin-bottom: 2.5rem;
   letter-spacing: 0.02em;
 }
-    
+
+    @media (max-width: 600px) {
+  .hero-logo img { width: 210px; }
+}
+
 </style>
   
 </head>
